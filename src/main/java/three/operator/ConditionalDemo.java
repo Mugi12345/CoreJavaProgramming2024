@@ -1,8 +1,7 @@
-package two;
+package three.operator;
 
-public class SecondProgram {
+public class ConditionalDemo {
     public static void main(String[] args) {
-
 
     }
 }
