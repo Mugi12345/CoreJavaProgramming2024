@@ -65,7 +65,9 @@ public class SwitchDemo2 {
                 System.out.println("Pogresno unijet dan.");
 
         }
-        System.out.println(dan);
+        String message = "Za uneseni dan u nedelji redni broj je: " + dan;
+        System.out.println(message);
+        //System.out.println(dan);
 
     }
 }
