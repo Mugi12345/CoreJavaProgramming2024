@@ -24,6 +24,7 @@ public class Vjezba {
         } else {
             System.out.println("Ostatak je manji od 1000");
         }
+        System.out.println("Ostatak je: " + remainder);
     }
 }
 
