@@ -19,5 +19,12 @@ public class MultiDimenArrayDemo {
         names[1][1] = "Milosevic";
         String fullName = names[0][0] + " " + names[1][1];
         System.out.println( fullName);
+
+        //za prolazak kroz multidemnsional arrays
+        for (int i = 0; i < names.length; i++) {
+            for (int j = 0; j < names[i].length; j++) {
+                System.out.println(names[i][j]);
+            }
+        }
     }
 }
